@@ -1,4 +1,6 @@
 
+Param([string]$rede)
+
 function ResolveIp($IpAddress) {
     try {
         (Resolve-DnsName $IpAddress -QuickTimeout -ErrorAction SilentlyContinue).NameHost
@@ -33,9 +35,6 @@ function Get-PingSweep {
     }
 }
 
-
-
-param($rede)
 
 if (!$rede){
     echo "Pingsweep inspirado de @Lee_Holmes"
