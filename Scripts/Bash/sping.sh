@@ -15,7 +15,7 @@ for hosts in {1..254};
 
  echo "wait" >> /tmp/xping.sh
  
- bash /tmp/xping.shd
+ bash /tmp/xping.sh
 fi
 
  
