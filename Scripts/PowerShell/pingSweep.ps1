@@ -41,7 +41,7 @@ if (!$rede){
     echo "Ex .\pingSweep.ps1 -SubNet 192.168.0"
    # echo "Ex .\pingSweep.ps1 -SubNet 192.168.0 -ResolveName "
 }else{
-    Get-PingSweep -SubNet $rede
+    Get-PingSweep -SubNet $rede  
 }
 
 
